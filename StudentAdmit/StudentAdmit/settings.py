@@ -55,7 +55,7 @@ ROOT_URLCONF = 'StudentAdmit.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['tem'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
